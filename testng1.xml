@@ -4,7 +4,7 @@
     <test name="加入购物车">
         <packages>
             <package name="JDTest"/>
-            <package name="maven.lesson1"/>
+<!--            <package name="maven.lesson1"/>-->
         </packages>
     </test>
 <!--    <test verbose="2" preserve-order="true" name="/Users/cuikai/IdeaProjects/FirstMavenProject/src/test/java">-->
