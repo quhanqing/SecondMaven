@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd14302-821e-4eeb-b9fe-b6d58241451e" name="Default Changelist" comment="firstMaven">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyActions/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestData/测试数据_用户表.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GiteeTest/GetDataFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GiteeTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,16 +20,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GiteeTest/GetDataFromExcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GiteeTest/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="38" column="74" lean-forward="true" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyActions/Actions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +104,13 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/maven/lesson1/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/Test1.java" />
+        <option value="$PROJECT_DIR$/testng1.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyActions/Actions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/GiteeTest/GetDataFromExcel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GiteeTest/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -64,13 +128,24 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="FirstMavenProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FirstMavenProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FirstMavenProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.testng:testng:6.8.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="45" />
+    <option name="x" value="296" />
+    <option name="y" value="47" />
     <option name="width" value="1253" />
     <option name="height" value="960" />
   </component>
@@ -80,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,6 +172,35 @@
               <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MyActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -103,88 +208,12 @@
               <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JDTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstMavenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+              <item name="TestData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -193,7 +222,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/TestData" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -202,6 +231,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/TestData" />
       <recent name="$PROJECT_DIR$/src/test/Driver" />
     </key>
   </component>
@@ -217,32 +247,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/cuikai/IdeaProjects/FirstMavenProject/testng.xml">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maven.lesson1.*" />
+          <option name="PATTERN" value="GiteeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="maven.lesson1" />
-      <option name="MAIN_CLASS_NAME" value="maven.lesson1.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstMavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDTest" />
-      <option name="MAIN_CLASS_NAME" value="JDTest.AddCartTest" />
+      <option name="PACKAGE_NAME" value="GiteeTest" />
+      <option name="MAIN_CLASS_NAME" value="GiteeTest.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -250,16 +265,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maven.lesson1.*" />
+          <option name="PATTERN" value="GiteeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="maven.lesson1" />
-      <option name="MAIN_CLASS_NAME" value="maven.lesson1.AppTest" />
+      <option name="PACKAGE_NAME" value="GiteeTest" />
+      <option name="MAIN_CLASS_NAME" value="GiteeTest.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -267,20 +282,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/cuikai/IdeaProjects/FirstMavenProject/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng1.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GiteeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GiteeTest" />
+      <option name="MAIN_CLASS_NAME" value="GiteeTest.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/cuikai/IdeaProjects/FirstMavenProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GiteeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GiteeTest" />
+      <option name="MAIN_CLASS_NAME" value="GiteeTest.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GiteeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GiteeTest" />
+      <option name="MAIN_CLASS_NAME" value="GiteeTest.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -289,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppTest" />
-        <item itemvalue="TestNG./Users/cuikai/IdeaProjects/FirstMavenProject/testng1.xml" />
-        <item itemvalue="TestNG./Users/cuikai/IdeaProjects/FirstMavenProject/testng.xml" />
-        <item itemvalue="TestNG.AddCartTest" />
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest (3)" />
+        <item itemvalue="TestNG.LoginTest (2)" />
+        <item itemvalue="TestNG.LoginTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +354,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561260117836</updated>
-      <workItem from="1561260130129" duration="9548000" />
+      <workItem from="1561260130129" duration="15058000" />
+      <workItem from="1561367581242" duration="11510000" />
     </task>
     <task id="LOCAL-00001" summary="firstMaven">
       <created>1561273960327</created>
@@ -320,74 +368,76 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.06.23 at 12h 17m 03s.xml">
-      <configuration name="AppTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_(2) - 2019.06.24 at 18h 16m 28s.xml">
+      <configuration name="LoginTest (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 21m 09s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.24 at 18h 20m 26s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 27m 48s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.24 at 18h 20m 35s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 28m 12s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_(3) - 2019.06.24 at 18h 23m 52s.xml">
+      <configuration name="LoginTest (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 29m 25s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.24 at 18h 25m 20s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 29m 43s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_loginTest - 2019.06.24 at 18h 27m 09s.xml">
+      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddCartTest - 2019.06.23 at 12h 32m 48s.xml">
-      <configuration name="AddCartTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.24 at 18h 44m 45s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_cuikai_IdeaProjects_FirstMavenProject_testng_xml - 2019.06.23 at 12h 37m 23s.xml">
-      <configuration name="/Users/cuikai/IdeaProjects/FirstMavenProject/testng.xml" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.25 at 21h 25m 10s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_cuikai_IdeaProjects_FirstMavenProject_testng1_xml - 2019.06.23 at 12h 49m 12s.xml">
-      <configuration name="/Users/cuikai/IdeaProjects/FirstMavenProject/testng1.xml" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.06.25 at 21h 34m 06s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.23 at 12h 50m 46s.xml">
-      <configuration name="AppTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_loginTest - 2019.06.25 at 21h 35m 07s.xml">
+      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9548000" />
+    <option name="totallyTimeSpent" value="26568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="45" width="1253" height="960" extended-state="0" />
+    <frame x="296" y="47" width="1253" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24938068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2535095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.3289941" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49958712" weight="0.3289941" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5004129" side_tool="true" weight="0.3289941" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3289941" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289941" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44852072" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven" weight="0.32947975" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.3289941" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49958712" weight="0.5147929" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004129" side_tool="true" weight="0.3289941" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289941" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3289941" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.328654" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,18 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -440,17 +478,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MyActions.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyActions/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        <state relative-caret-position="397">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GiteeTest/GetDataFromExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GiteeTest/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="38" column="74" lean-forward="true" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
